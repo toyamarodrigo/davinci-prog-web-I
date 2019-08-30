@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    color: aqua;
+    background-color: dimgrey;
+}
+
+/*1ra, especifidad*/
+
+a {
+    color: forestgreen;
+}
+
+/*2da, orden*/
+
+a {
+    color: salmon;
+}
+
+
+/*3ra, fuerza del selector*/
+#unico {
+    color: rebeccapurple;
+}
+
+.destacado {
+    color: aquamarine;
+}
+
+p {
+    color: yellow;
+}
+
+/*4ta, importancia*/
+
+#unico {
+    color: lightblue!important;
+}
+
+#unico { color:indigo; }
+
+
+/*ejemplo de combinacion de selectores*/
+a.boton {
+    color: wheat;
+}
