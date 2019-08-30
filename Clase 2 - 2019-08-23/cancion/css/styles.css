@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ecf4f3;
+  font-family: Arial, sans-serif;
+  color: #45454d;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.titulo.destacado {
+  font-size: 70px;
+}
+
+.titulo {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.infoalbum {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.lyrics {
+  margin-bottom: 20px;
+}
