@@ -1,6 +1,0 @@
-album: A Night at the Opera
-Fecha de lanzamiento: 1985
-Duracion: 5:55
-Genero: Rock Progresivo
-Productor(es):	Queen y Roy Thomas Baker
-Songwriter: Freddie Mercury 
