@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(/Clase2-2019-08-23/receta/imagenes/eqwqewasdads.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.subtitulo {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 10px 10px;
+}
+
+.ingredientes {
+  margin: 30px 50px 30px 50px;
+  padding: 50px;
+}
+
+.video {
+  margin: 15px;
+  border-color: aquamarine;
+  border-style: solid;
+  box-shadow: 6px 7px 23px 1px rgba(0, 0, 0, 0.62);
+}
+
+.preparacion {
+  margin: 30px 50px 30px 50px;
+  padding: 0px 50px 50px 50px;
+  width: 800px;
+  height: 100%;
+}
+
+.imagenpop {
+  box-shadow: 6px 7px 23px 1px rgba(0, 0, 0, 0.62);
+}
+
+img {
+  width: 100%;
+  height: 100%
+}
+
+ul,
+ol {
+  font-size: 1.3em;
+}
+
+li {
+  margin: 8px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
