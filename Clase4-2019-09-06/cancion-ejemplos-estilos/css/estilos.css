@@ -32,6 +32,13 @@ body {
     color: white;
 }
 
+/* combinacion de selectores */
+.titulo.destacado {
+    color: white;
+    text-shadow: 3px 3px 0 red,
+    3px 3px 0 black;
+}
+
 
 /* FUENTES */
 body {
@@ -49,6 +56,16 @@ body {
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
+    background-color: orange;
+}
+
+.marco {
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px; /* css3 */
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.74);
+    /* box-shadow: distanciaX distanciaY desenfocado color */
 }
 
 
