@@ -1,0 +1,64 @@
+/*
+comentario en el css
+
+en el css declaramos reglas css
+
+selector {
+    propiedad : valor ;
+    otra-propiedad : valor;
+}
+ 
+SELECTORES BÁSICOS
+selector de etiqueta     nombredeetiqueta
+selector de clase        .valor-atributos-class 
+selector de id           #valor-atributo-id  
+*/
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* SKIN O TEMA */
+.fondo-color {
+    background-color: crimson;
+    color: white;
+}
+
+
+/* FUENTES */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.titulo {
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+}
+
+.portada {
+    background-image: url("../imagenes/fondo.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+/* LAYOUT (COMPOSICION DE PAGINA) */
+.contenedor {
+    padding: 35px;
+}
+
+/* listado */
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
