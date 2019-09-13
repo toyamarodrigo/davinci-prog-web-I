@@ -1,0 +1,22 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background-image: url('../img/fondo.jpg');
+}
+
+.navbar
+{
+	display: flex;
+	justify-content: space-evenly; /* flex-start, flex-end, center, space-around, space-between, space-evenly */
+	background-color: tomato;
+}
+
+.navbar a
+{
+	text-decoration: none;
+	color: #fafafa;
+	font-family: arial;
+	font-weight: 700;
+	padding: 5px;
+}

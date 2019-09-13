@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Propiedades CSS - Posicionamiento Absoluto </title> 
+	<style>
+		.contenedor {
+			width:300px;
+            font-size: 24px;
+		}
+		.pos-absoluto {
+			background:red;
+			position:absolute; 
+			top:0px;
+			right:0px;
+		} 
+		.pos-relativo {
+			background:lightblue;
+			position:relative;
+		}
+	</style>
+</head>
+<body> 
+	<div class="contenedor">
+		<strong>Ejemplo de posicionamiento</strong><br> 
+		por defecto position:static; 
+		<div class="pos-absoluto">
+			caja 1 con position:absolute; 
+		</div> 
+		 
+	</div>	
+
+
+	<div class="contenedor pos-relativo">		
+		<strong>Combinación de posicionamientos. </strong>	<br>
+		position:relative;		 
+		<div class="pos-absoluto">
+			caja 2 con position:absolute; 
+		</div>		  
+	</div>		
+</body>
+</html>

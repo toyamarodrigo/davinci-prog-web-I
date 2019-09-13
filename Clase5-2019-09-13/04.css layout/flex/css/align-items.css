@@ -1,0 +1,29 @@
+div div
+{
+	font-size: 40px;
+	font-weight: 700;
+	color:#fafafa;
+	font-family: arial;
+	background-color: tomato;
+	margin: 5px 5px;
+	padding: 10px;
+}
+
+#padre
+{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start; /* flex-start, flex-end, baseline, center, stretch */
+}
+
+#padre img
+{
+	margin: 20px;
+	width: 30%;
+}
+
+#alineamientoPropio
+{
+		/* Con esta propiedad, puedo modificar el alineamiento de un elemento en particular, a diferencia de align-items que trabaja con todos los elementos del contenedor */
+	align-self:center;
+}

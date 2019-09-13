@@ -1,0 +1,17 @@
+#padre
+{
+	display:flex;
+	flex-flow: row nowrap;
+	
+}
+
+.divHijo
+{
+	font-size: 40px;
+	font-weight: 700;
+	color:#fafafa;
+	font-family: arial;
+	background-color: tomato;
+	margin: 5px 5px;
+	padding: 10px;
+}

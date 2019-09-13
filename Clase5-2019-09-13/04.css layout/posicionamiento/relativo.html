@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Propiedades CSS - Posicionamiento Relativo </title> 
+	<style>
+		.contenedor {
+			width:300px;
+            font-size: 24px;			
+		}
+		.pos-relativo {
+			background:red;
+			position:relative; 
+			top:10px;
+			right:-200px;
+		} 
+	</style>
+</head>
+<body> 
+	<div class="contenedor">
+		<strong>Desplazamiento de cajas por position</strong>
+		<div>
+			El posicionamiento por defecto es estático (static)
+		</div>		
+		<div class="pos-relativo">
+			Caja con position:relative; 
+		</div> 
+		<div>
+			El posicionamiento por defecto es estático (static)
+		</div>	
+	</div>		 
+</body>
+</html>

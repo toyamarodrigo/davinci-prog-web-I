@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<style>
+	.caja-tradicional { 
+	  box-sizing: content-box; 
+	}
+	.caja-mas-padding {
+	  box-sizing: padding-box; 
+	}
+	.caja-moderna { 
+	  box-sizing: border-box; 
+	}
+	
+	div  {
+	  width: 600px;
+	  padding: 20px;
+	  background: #444;
+	  color: white;
+	  border: 10px solid red;
+	  margin-bottom:20px;
+	}
+
+	</style>
+</head>
+ 
+<body>
+<h1>Valores para box-sizing:</h1>
+
+	<div class="caja-tradicional"> 
+		caja con "content-box"
+	</div>
+	<div class="caja-mas-padding"> 
+		caja con "padding-box"
+	</div>
+	<div class="caja-moderna"> 
+		caja con "border-box"
+	</div>
+	
+	
+
+	
+	
+</body>
+</html>

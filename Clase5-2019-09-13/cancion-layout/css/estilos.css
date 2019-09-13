@@ -1,0 +1,151 @@
+/*
+comentario en el css
+
+en el css declaramos reglas css
+
+selector {
+    propiedad : valor ;
+    otra-propiedad : valor;
+}
+ 
+SELECTORES BÁSICOS
+selector de etiqueta     nombredeetiqueta
+selector de clase        .valor-atributos-class 
+selector de id           #valor-atributo-id  
+
+*/
+
+/*RESET*/
+body {
+    margin: 0;
+}
+
+.lista-reset {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/*SKIN Ó TEMA*/
+.fondo-color {
+    background-color: crimson;
+    color: white;
+}
+
+.portada {
+    /*    ruta relativa a la imagen */
+    background-image: url(../imagenes/fondo.jpg);
+    background-color: orange;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.marco {
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    /*css3*/
+    /*   sobra de caja: distanciaX distanciaY desenfocado propagacion color*/
+    -webkit-box-shadow: 0 0 5px 5px rgba(111, 1, 1, 0.53);
+    box-shadow: 0 0 5px 5px rgba(111, 1, 1, 0.53);
+    /*css3*/
+
+}
+
+/*combinacion de selectores*/
+.titulo.destacado {
+    text-shadow: 0 1px 0 #ccc,
+        0 3px 0 #bbb,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 10px rgba(0, 0, 0, .25),
+        0 20px 50px rgba(0, 255, 255, 0.3);
+    font-size: 135px;
+
+    transform: rotate(-10deg);
+    /*standard*/
+    -moz-transform: rotate(-10deg);
+    /*prefijos mozilla*/
+    -webkit-transform: rotate(-10deg);
+    /*prefijos chrome, safari*/
+}
+
+.titulo {
+    color: white;
+    /*
+    text-shadow: 3px 3px 0 white,
+                5px 5px 0 red    ;
+*/
+}
+
+
+
+
+
+/*FUENTES*/
+body {
+    font-family: 'Nunito', sans-serif;
+    /*css3*/
+    font-size: 25px;
+}
+
+.titulo {
+    font-family: 'Cinzel Decorative', cursive;
+    /*css3*/
+    text-align: center;
+}
+
+
+
+/*LAYOUT (COMPOSICIÓN DE PÁGINA)*/
+
+.contenedor {
+    padding: 35px;
+}
+
+/*utilidad*/
+.centrado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fila {
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+.columna1 {
+    width: 500px;
+    background-color: darkblue;
+}
+
+.columna2 {
+    width: 500px;
+    background-color: darkcyan;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+
+/* selector descendente */
+
+.pie ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}

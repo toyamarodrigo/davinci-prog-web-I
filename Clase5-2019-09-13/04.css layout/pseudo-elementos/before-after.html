@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo elementos ::before ::after</title>
+    
+<style>
+    .caja::before{content:'Antes';color:red;}        
+    .caja::after {content: 'Después';color:red;}
+
+    h1::after {content: '\2764';color:red;}
+
+    a::after {content:' ['attr(href)']';}
+
+ 
+    
+</style>
+</head>
+<body>
+  
+    
+    <h1>Hola Mundo</h1>
+
+    <div class="caja">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit id eos nostrum, incidunt, optio dolore fugiat, assumenda, praesentium aperiam tempora rem veniam asperiores vel laboriosam consequuntur laudantium placeat eveniet ab.    
+    </div>
+
+
+    <a href="https://twitter.com" target="_blank">Ir a Twitter</a>
+    
+    
+</body>
+</html>
+
+
+
+
