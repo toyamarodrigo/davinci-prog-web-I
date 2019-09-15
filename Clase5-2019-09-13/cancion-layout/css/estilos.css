@@ -18,6 +18,8 @@ selector de id           #valor-atributo-id
 /*RESET*/
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .lista-reset {
