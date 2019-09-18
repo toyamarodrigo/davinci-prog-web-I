@@ -40,7 +40,7 @@ Para la fecha de entrega el alumnx debe adjuntar a la tarea de classroom **[NOTA
 
     + [ ] Aficiones/Hobbies o Intereses (series o bandas favoritas): al menos 3, con una imagen ó video referencial, título, descripción y año de producción.
 
-  - [ ]Como Pie del documento, los links a las redes sociales y correo de contacto.
+  - [ ] Como Pie del documento, los links a las redes sociales y correo de contacto.
 
 ---
 
