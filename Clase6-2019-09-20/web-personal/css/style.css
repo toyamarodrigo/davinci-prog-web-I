@@ -12,3 +12,8 @@ body, html {
   margin: 0;
   line-height: 1.8em;
 }
+
+#Galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
