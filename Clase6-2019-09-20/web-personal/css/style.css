@@ -16,4 +16,30 @@ body, html {
 #Galeria {
   display: flex;
   flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.item {
+  width: 33.33%;
+  padding: 30px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item a {
+  display: block;
+  line-height: 0;
+
+  border: 5px solid #cecece;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.25);
+
+  transition: transform .1 linear;
+}
+
+.item a:hover {
+  transform: translate(-20px);
 }
