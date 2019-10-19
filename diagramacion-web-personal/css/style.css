@@ -1,0 +1,19 @@
+* {
+
+}
+
+.deco-line {
+  background-color: #d65a31;
+  height: 6px;
+  width: 100%;
+}
+
+#parallax-img {
+  background-image: url("/images/barrio7-unsam.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 99vh;
+}
