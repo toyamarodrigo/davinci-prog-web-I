@@ -13,3 +13,26 @@
   background-attachment: fixed;
   height: 99vh;
 }
+
+#parallax-img2 {
+  background-image: url("/images/barrio3-sanmartin.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+}
+#parallax-img3 {
+  background-image: url("/images/animal1-grande.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
