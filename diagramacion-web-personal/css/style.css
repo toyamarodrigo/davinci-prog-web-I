@@ -1,7 +1,20 @@
+body {
+  background-color: #eeeeee;
+}
+
 .deco-line {
   background-color: #d65a31;
   height: 6px;
   width: 100%;
+}
+
+.my-button {
+  background: #d65a31;
+  border: none;
+}
+
+.my-title {
+  background-color: black;
 }
 
 #parallax-img {
@@ -11,7 +24,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 99vh;
+  height: 90vh;
+  width: 100%;
 }
 
 #parallax-img2 {
@@ -22,7 +36,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 400px;
+  width: 100%;
 }
+
 #parallax-img3 {
   background-image: url("/images/animal1-grande.jpg");
   opacity: 0.8;
@@ -31,6 +47,29 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 400px;
+  width: 100%;
+}
+
+#parallax-img4 {
+  background-image: url("/images/barrio5-unsam.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+}
+
+#parallax-img5 {
+  background-image: url("/images/hobbie-rkmd3.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
 }
 
 [class*="col-"] {
