@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Pisar selectores que ya existen en la libreria */
+.bg-dark {
+    background-color: darkred!important;
+}
+
+/* Incorporar tu propias selectores */
+.fondo-portada {
+    background-image: 
+        linear-gradient(45deg, rgba(0,0,0,0.55) 0%, rgba(255,255,255,0.80) 100%), url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.redes a {
+    font-size: 42px;
+    color: white;
+}
+
+.redes a:hover {
+    color: lightslategray;
+}
