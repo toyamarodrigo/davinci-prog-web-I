@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Web Personal</title>
+
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="icomoon/style.css">
+
+    <!--    CSS "de autor"
+  siempre, lava mos cargar después de la librería, o cualquier otro recurso de estilos
+   -->
+    <link rel="stylesheet" href="css/mis-estilos.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!--
+   
+   atajo RCH bootstrap 4 snippets
+   
+   bs4navbar_basic
+ 
+-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Nombre Apellido</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#QuienSoy">Quien Soy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <header class="container-fluid bg-primary text-center text-light p-5 fondo-portada d-flex flex-column justify-content-center align-items-center" id="inicio">
+        <img src="imagenes/animal-black-and-white-black-and-white-2024898.jpg" width="160" height="160" alt="Foto Nombre Apellido" class="rounded-circle mt-5 wow bounceInDown" data-wow-iteration="infinite">
+        
+        <!-- 
+        para compañar las clases wow se extienden algunas caracteristicas desde los atributos
+        data-wow-iteration
+        data-wow-duration
+        data-wow-delay
+        data-wow-offset
+        -->
+        
+        
+        
+        <h1 class="display-1 wow bounceInUp">Nombre Apellido</h1>
+        <hr>
+        <h2 class="h4 wow bounceInUp">Perfil Profesional</h2>
+    </header>
+
+
+    <main class="container">
+        <section id="QuienSoy" class="py-4">
+            <h2 class="mt-5 wow slideInLeft">Quien Soy</h2>
+
+            <p class="mt-5 p-4 bg-dark text-white rounded wow slideInLeft" data-wow-delay=".5s">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br class="d-md-none">
+                Dolorum illum incidunt deserunt velit officia quisquam aperiam ipsum cum impedit, nostrum nemo quaerat saepe itaque, labore suscipit. Nisi reprehenderit rem, ullam.
+            </p>
+
+        </section>
+        <section id="Portfolio" class="py-4">
+            <h2 class="mt-5">Portfolio</h2>
+
+            <div id="Galeria" class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a data-fancybox="gallery" href="imagenes/animal-black-and-white-black-and-white-2024898-grande.jpg">
+                        <img src="imagenes/animal-black-and-white-black-and-white-2024898.jpg" class="d-block w-100 wow rollIn">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a data-fancybox="gallery" href="imagenes/animal-black-and-white-crow-51540-grande.jpg">
+                        <img src="imagenes/animal-black-and-white-crow-51540.jpg" class="d-block w-100">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a data-fancybox="gallery" href="imagenes/animal-black-black-and-white-946344-grande.jpg">
+                        <img src="imagenes/animal-black-black-and-white-946344.jpg" class="d-block w-100">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a data-fancybox="gallery" href="imagenes/animal-black-and-white-black-and-white-2024898-grande.jpg">
+                        <img src="imagenes/animal-black-and-white-black-and-white-2024898.jpg" class="d-block w-100">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a data-fancybox="gallery" href="imagenes/animal-black-and-white-crow-51540-grande.jpg">
+                        <img src="imagenes/animal-black-and-white-crow-51540.jpg" class="d-block w-100">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a data-fancybox="gallery" href="imagenes/animal-black-black-and-white-946344-grande.jpg">
+                        <img src="imagenes/animal-black-black-and-white-946344.jpg" class="d-block w-100">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <section id="Contacto" class="py-4">
+            <h2 class="mt-5">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form action="" method="post" enctype="multipart/form-data" class="my-5">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark py-2 py-lg-4">
+        <ul class="nav justify-content-center redes">
+            <li class="nav-item">
+                <a class="nav-link" href="http://www.facebook.com.ar/usuario">
+                    <span class="icon-electronics-1"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span class="icon-electronics"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span class="icon-camera"></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span class="icon-behance"></span>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="plugins/wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

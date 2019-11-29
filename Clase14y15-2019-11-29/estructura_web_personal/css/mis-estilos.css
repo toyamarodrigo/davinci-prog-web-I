@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*se peuden pisar selectores de la librería*/
+
+.bg-dark{
+    background-color:#6a1a1a!important;
+}
+
+/*es que incorporar nuevos (tus propios)  selectores*/
+.fondo-portada{
+    
+    background-image:
+        
+        linear-gradient(
+            45deg, /*direccion del gradiente*/
+            rgba(196, 112, 112, 0.54) 0%, /*color y limite*/
+            rgba(255,255,255, 0.85) 100% /*color y limite*/
+        ),
+        url(../imagenes/fondo.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    background-attachment: fixed;
+        
+     min-height: 100vh;
+/*    unidades relativas al viweport
+    vh viewport height
+    vw viewport width
+    */
+}
+
+
+.redes a{
+    font-size: 55px;
+    color: darkgoldenrod;
+}
+.redes a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
